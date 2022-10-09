@@ -26,7 +26,6 @@ public class Main {
                         }
                     }
                     for (int k = (i + 1 == board.length)? i : i+1; k < 9; k++) {// check the rows of the number if there is any duplicate return false
-                        System.out.print(board[k][j]);
                         if (board[i][j]  == board[k][j] && k != i) {
                             return false;
                         }
